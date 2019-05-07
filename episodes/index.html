@@ -3,10 +3,10 @@ layout: default
 title: Outside the Dining Hall Episodes
 ---
 	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+	<ul class="episodes">
 
-	  {% for post in site.categories.episodes %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% for episode in site.episodes %}
+	    <li><span>{{ episode.date | date_to_string }}</span> » <a href="{{ episode.url }}" title="{{ episode.title }}">{{ episode.title }}</a></li>
 	  {% endfor %}
 	</ul>
 
