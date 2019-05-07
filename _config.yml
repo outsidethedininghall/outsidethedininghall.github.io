@@ -3,3 +3,4 @@ description: A Variety Show
 markdown: kramdown
 #link blog posts to /blog/YYYY/MM/DD/name-of-post
 permalink: /blog/:year/:month/:day/:title
+permalink: /episodes/:year/:month/:day/:title
